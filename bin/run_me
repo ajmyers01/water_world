@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+#require 'pry'
+
+require_relative '../lib/header.rb'
+
+puts "Building t1 infantry troops"
+
+engine = CountdownEngine.new('t1_infantry').countdown_timer
+
+puts "done"
+
