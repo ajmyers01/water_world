@@ -1,6 +1,3 @@
-# frozen_string_literal: true
-source "https://rubygems.org"
-
-gem 'pry'
-gem 'pry-byebug'
-gem 'parallel'
+source 'http://rubygems.org'
+gem 'faye'
+gem 'thin'
